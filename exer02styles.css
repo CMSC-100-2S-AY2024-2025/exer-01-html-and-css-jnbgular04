@@ -1,57 +1,94 @@
+@font-face {
+    font-family: Nunito;
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: BerkshireSwash;
+    src: url(fonts/BerkshireSwash-Regular.ttf);
+  }
+
 .main{
+    font-family : Nunito;
     display : flex;
     flex-flow: column wrap;
-    background-color : #074f43; 
-    color : white;
-    border : solid black 2px;
+    background-image: linear-gradient(#fff3fe,#ffe3f0 60%);
+    color : #31383f;
 }
 
 .logobar{
     display : flex;
-    justify-content : center;
+    justify-content :space-evenly;
     align-items: center;
     height: 15vh;
-    border-bottom : solid black 2px;
-}
-
-.featured_photo{
-    display : flex;
-    justify-content : center;
-    height : 10 vh;
-    padding: 10px;
-    border-bottom : solid black 2px;
-}
-.project_img{
-    width : 300px;
-}
-.fp{
-    width : 60%;
-}
-.previous_projects{
+    font-family: BerkshireSwash;
+    font-size: 25px;
+    color : #E195AB;
     padding: 20px;
-    justify-content : space-around;
-    display : flex;
-    border-bottom: solid black 2px ;
+    background-color:  WHITE;
 }
 
-.skills_bio{
-    display : flex;
+.about_me{
+    padding-top : 7px;
+    height: 75vh;
+    justify-content:space-evenly;
     flex-flow: row wrap;
-    justify-content : space-evenly;
-    border-bottom: solid black 2px ;
+    align-content: center;
+    display : flex;
 }
 
-.skills{
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    border: solid black 2px ;
+.fp{
+    height : 80%;
+    border-radius: 50%;
 }
 
-.autobio{
-    border: solid black 2px ;
+.aboutme_text{
+    line-height:23px;
+    width : 500px;
+    padding-top : 20px;
+}
+
+.previous_projects{
+    display : flex;
+    flex-direction: column;
+    background: #e462ab;
+    padding-bottom: 50px;
+    align-items: center;
+    height : 120vh;
+    text-align:center; 
+    --mask:
+     radial-gradient(241.31px at 50% 335.65px,#000 99%,#0000 101%) calc(50% - 274px) 0/548px 100%,
+    radial-gradient(241.31px at 50% -198.65px,#0000 99%,#000 101%) 50% 137px/548px 100% repeat-x;
+    -webkit-mask: var(--mask);
+    mask: var(--mask);
+}
+
+.prevprojheader{
+    padding-top: 200px;
+    font-size: 55px; 
+    color :WHITE; 
+    font-family: BerkshireSwash;
+}
+.projcont{
+    width: 100%; /* had issues with spacing if this was not present*/
+    display : flex;
+    padding-top: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+.project{
+    width : 500px;
+    border-radius: 25px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: white;
+    justify-content : center;
+    text-align: center;
 }
 
 .footer{
-
+    padding: 20px;
 }
