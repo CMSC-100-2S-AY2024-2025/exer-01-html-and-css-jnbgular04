@@ -1,6 +1,39 @@
 .main{
-    align-content : center;
-    flex-flow: column wrap;
-    height : 100vh;
     display : flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    
+    background-color : #074f43; 
+    color : white;
+    border : solid black 2px;
+}
+.logobar{
+    display : flex;
+    justify-content : center;
+    align-items: center;
+    height: 15vh;
+}
+
+.featured_photo{
+    display : flex;
+    justify-content : center;
+}
+.project_img{
+    width : 35%;
+}
+.fp{
+    width : 35%;
+}
+
+.previous_projects{
+    justify-content : center;
+    align-content: space-between;
+    display : flex;
+    flex-flow : row wrap;
+}
+
+.skills_bio{
+    display : flex;
+    justify-content : center;
+
 }
