@@ -1,39 +1,57 @@
 .main{
     display : flex;
-    justify-content: center;
     flex-flow: column wrap;
-    
     background-color : #074f43; 
     color : white;
     border : solid black 2px;
 }
+
 .logobar{
     display : flex;
     justify-content : center;
     align-items: center;
     height: 15vh;
+    border-bottom : solid black 2px;
 }
 
 .featured_photo{
     display : flex;
     justify-content : center;
+    height : 10 vh;
+    padding: 10px;
+    border-bottom : solid black 2px;
 }
 .project_img{
-    width : 35%;
+    width : 300px;
 }
 .fp{
-    width : 35%;
+    width : 60%;
 }
-
 .previous_projects{
-    justify-content : center;
-    align-content: space-between;
+    padding: 20px;
+    justify-content : space-around;
     display : flex;
-    flex-flow : row wrap;
+    border-bottom: solid black 2px ;
 }
 
 .skills_bio{
     display : flex;
-    justify-content : center;
+    flex-flow: row wrap;
+    justify-content : space-evenly;
+    border-bottom: solid black 2px ;
+}
+
+.skills{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: solid black 2px ;
+}
+
+.autobio{
+    border: solid black 2px ;
+}
+
+.footer{
 
 }
