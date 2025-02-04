@@ -41,9 +41,14 @@
     padding: 20px;
     background-color: white;
     border-radius: 25px;
+    border : 5px solid rgb(222, 221, 222);
+
 }
 
 .fp{
+    position: relative;
+    top: 50px;
+    left : 60px;
     height : 120%;
     border-radius: 50%;
 }
@@ -86,6 +91,7 @@
     padding-bottom: 30px;
 }
 .project{
+    border : 5px solid rgb(222, 221, 222);
     width : 500px;
     border-radius: 25px;
     padding-top: 40px;
