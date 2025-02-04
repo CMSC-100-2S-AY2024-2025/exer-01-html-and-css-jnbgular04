@@ -12,7 +12,7 @@
     font-family : Nunito;
     display : flex;
     flex-flow: column wrap;
-    background-image: linear-gradient(#fff3fe,#ffe3f0 60%);
+    background-image: linear-gradient(#fff3fe,#f6b0d1 35%);
     color : #31383f;
 }
 
@@ -29,12 +29,18 @@
 }
 
 .about_me{
-    padding-top : 60px;
+    padding-top : 110px;
     height: 50vh;
     justify-content:space-evenly;
     flex-flow: row wrap;
     align-content: center;
     display : flex;
+}
+
+.box{
+    padding: 20px;
+    background-color: white;
+    border-radius: 25px;
 }
 
 .fp{
@@ -45,7 +51,7 @@
 .aboutme_text{
     line-height:23px;
     width : 500px;
-    padding-top : 20px;
+    padding-top : 10px;
 }
 
 .previous_projects{
@@ -54,7 +60,7 @@
     background: #e462ab;
     padding-bottom: 50px;
     align-items: center;
-    height : 120vh;
+    height : 110vh;
     text-align:center; 
     /* Source : https://css-generators.com/wavy-shapes/*/
     --mask:
@@ -91,5 +97,8 @@
 }
 
 .footer{
+    color : #31383f;
+    font-family: Nunito;
+    line-height:10px;
     padding: 20px;
 }
